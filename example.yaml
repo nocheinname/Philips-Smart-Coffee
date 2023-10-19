@@ -9,7 +9,7 @@ esp8266:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "SyHgHI5goGbmkLgDVFjiC41jOrnL9Fu9DdYiAfHAd64="
+    key: "###########################"
 
 ota:
 
