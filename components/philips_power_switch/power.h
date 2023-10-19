@@ -4,8 +4,8 @@
 #include "esphome/components/switch/switch.h"
 #include "esphome/components/uart/uart.h"
 
-#define MESSAGE_REPETITIONS 8
-#define POWER_TRIP_DELAY 800
+define MESSAGE_REPETITIONS 8
+define POWER_TRIP_DELAY 800
 
 namespace esphome
 {
