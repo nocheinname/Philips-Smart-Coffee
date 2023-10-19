@@ -30,13 +30,13 @@ namespace esphome
                     if (cleaning_)
                     {
                         // Send power on command with cleaning
-                        for (unsigned int i = 0; i <= MESSAGE_REPETITIONS_LONG; i++)
+                        for (unsigned int i = 0; i <= MESSAGE_REPETITIONS; i++)
                             mainboard_uart_->write_array({0xD5, 0x55, 0x02, 0x01, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x38, 0x15});
                     }
                     else
                     {
                         // Send power on command without cleaning
-                        for (unsigned int i = 0; i <= MESSAGE_REPETITIONS_LONG; i++)
+                        for (unsigned int i = 0; i <= MESSAGE_REPETITIONS; i++)
                             mainboard_uart_->write_array({0xD5, 0x55, 0x01, 0x01, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x25, 0x27});
                     }
 
