@@ -25,6 +25,7 @@ namespace esphome
                     // Send pre-power on message
                     for (unsigned int i = 0; i <= MESSAGE_REPETITIONS_LONG; i++)
                         mainboard_uart_->write_array({0xD5, 0x55, 0x0A, 0x01, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x0E, 0x12});
+                    delay(600)
 
                     // Send power on message
                     if (cleaning_)
