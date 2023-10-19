@@ -8,7 +8,7 @@
 #include "../philips_bean_settings/bean_settings.h"
 #include "../philips_size_settings/size_settings.h"
 
-#define POWER_STATE_TIMEOUT 500
+#define POWER_STATE_TIMEOUT 800
 
 namespace esphome
 {
